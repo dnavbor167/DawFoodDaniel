@@ -84,7 +84,7 @@ public class TicketVenta {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("\n{Ticket:  ").append(id);
+        sb.append("\nTicket:  ").append(id);
         sb.append("\nNúmero de pedido=").append(numeroPedido);
         sb.append("\nFecha de la compra=").append(fechaCompra);
         sb.append("\nProductos comprados:\n");
@@ -93,7 +93,6 @@ public class TicketVenta {
         }
         sb.append("Total importe= ").append(TotalImporte).append(" €");
         sb.append("\nTotal (IVA)= ").append(TotalIVA).append(" €");
-        sb.append('}');
         return sb.toString();
     }
 
