@@ -34,19 +34,16 @@ public class writeRead {
 
 
     //método para leer el fichero de la raíz
-    public static List<String> leerFichero(String fichero) {
+    public static List<String> read(String file) {
         List<String> lineas = new ArrayList<>();
 
         try {
-            lineas = Files.readAllLines(Paths.get(fichero),
+            lineas = Files.readAllLines(Paths.get(file),
                     StandardCharsets.UTF_8);
         } catch (IOException ex) {
-            System.out.println("Error leyendo el fichero " + fichero);
+            System.out.println("Error leyendo el fichero " + file);
         }
-        //eliminamos la posición 0 
-        lineas.remove(0);
 
         return lineas;
-
     }
 }

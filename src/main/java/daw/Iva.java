@@ -9,11 +9,8 @@ package daw;
  * @author danielnavasborjas
  */
 public enum Iva {
-    IVA_REFRESCOS(0.21), 
-    IVA_ALCOHOL(0.21),
-    IVA_COMIDA(0.1), 
-    IVA_POSTRES(0.1), 
-    IVA_RESTOBEBIDAS(0.1);
+    IVA_ALCOHOL_REFRESCOS(0.21),
+    IVA_COMIDA_POSTRES_RESTOBEBIDAS(0.1);
     
     //Creación de atributo encapsulado
     private double cantidadIva;

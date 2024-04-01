@@ -11,4 +11,5 @@
         <maven.compiler.target>20</maven.compiler.target>
         <exec.mainClass>daw.DawFoodDanielVictor</exec.mainClass>
     </properties>
+    <name>DawFoodDaniel</name>
 </project>

@@ -11,7 +11,7 @@ package daw.productos;
 public enum SubCategoriaBebida {
     AGUA("Agua"), 
     CERVEZA("Cerveza"), 
-    ZUMONARANZA("Zumo de naranja");
+    ZUMONARANJA("Zumo de naranja");
     
     private String subcategoria;
     

@@ -279,6 +279,7 @@ public class TPV {
 
                                                     ventas.add(ticket);
                                                     JOptionPane.showMessageDialog(null, ticket.toString());
+                                                    //añadimos el método para escribir el ticket
                                                     MetodosTPV.vaciarCarrito(carrito);
                                                     break;
                                                 } else {

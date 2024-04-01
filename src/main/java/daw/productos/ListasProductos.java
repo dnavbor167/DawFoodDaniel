@@ -155,7 +155,7 @@ public class ListasProductos {
                 }
 
             }
-            case ZUMONARANZA -> {
+            case ZUMONARANJA -> {
                 //Bucle para que vaya añadiendo las Bebidas de subcategoria zumo de naranja
                 for (int i = 0; i < listaProductos.size(); i++) {
                     //con en el instanceof miramos que el producto en concreto
@@ -163,7 +163,7 @@ public class ListasProductos {
                     if (listaProductos.get(i) instanceof Bebida) {
                         //con esta lógica conseguimos que se vaya añadiendo
                         //todos los elementos que tengan una subcategoria de zumo de naranja
-                        if (((Bebida) listaProductos.get(i)).getSubBebida().equals(SubCategoriaBebida.ZUMONARANZA)) {
+                        if (((Bebida) listaProductos.get(i)).getSubBebida().equals(SubCategoriaBebida.ZUMONARANJA)) {
                             bebidaAMostrar.add((Bebida) listaProductos.get(i));
                         }
                     }
