@@ -278,8 +278,9 @@ public class TPV {
                                                             = new TicketVenta(carrito);
 
                                                     ventas.add(ticket);
-                                                    JOptionPane.showMessageDialog(null, ticket.toString());
                                                     //añadimos el método para escribir el ticket
+                                                    writeRead.writeRead.write("tickets.txt", ticket.toString());
+                                                    JOptionPane.showMessageDialog(null, ticket.toString());
                                                     MetodosTPV.vaciarCarrito(carrito);
                                                     break;
                                                 } else {
